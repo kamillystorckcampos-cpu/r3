@@ -1,0 +1,96 @@
+/* Configuração Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #000000; /* Letras pretas */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Conteiner Principal com Borda Azul */
+.blog-container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 4px solid #0056b3; /* Borda Azul */
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: #000000;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #333333;
+    margin-top: 5px;
+}
+
+/* Artigos do Blog */
+.post {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 25px;
+}
+
+.post h2 {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+.post .date {
+    font-size: 0.85rem;
+    color: #555555;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #0056b3; /* Borda Azul nas Imagens */
+    margin-bottom: 15px;
+}
+
+.post p {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.post ul {
+    margin-left: 20px;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #444444;
+}
